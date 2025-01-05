@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="col-md-6 col-lg-4">
               <div className="bg-primary rounded p-4">
                 <Link to="/">
-                  <h1 className="text-white text-uppercase mb-3">Hotelier</h1>
+                  <h1 className="text-white text-uppercase mb-3">Hotelhub</h1>
                 </Link>
                 <p className="text-white mb-0">
                   Build a professional website for your hotel business and grab
@@ -58,6 +58,17 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <footer
+      className="bg-dark text-white text-center py-3"
+      style={{ position: "relative", bottom: "0", width: "100%" }}
+    >
+      <p className="mb-0" style={{fontSize:"10px"}}>
+        &copy; 2025 Kusum. All rights reserved.
+      </p>
+      <small style={{fontSize:"10px"}}>
+        Built with using React.
+      </small>
+    </footer>
       </div>
     </>
   );
